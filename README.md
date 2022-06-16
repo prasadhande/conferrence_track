@@ -19,12 +19,13 @@ https://gist.github.com/abepetrillo/34e8b774e444a298c3a5e3e8aa058aaf
   * 1. Read data from file and create a list of String.
   * 2. validate each string talk, check the time.
   * 3. sort the list of talks.
-  * 4. find the possible day to schedule conference.
-  * 5. find out the combination which can fill the first half (morning session total time 180 mins).
-  * 6. find out the combination that can fill the evening sessions (180 >= totalSessionTime <= 240).
-  * 7. check if any task remaining in the list if yes then try to fill all the evening session.
+  * 4. find out the combination which can fill the first half (morning session total time 180 mins).
+  * 5. find out the combination that can fill the evening sessions (180 >= totalSessionTime <= 240).
+  * 6. check if any task remaining in the list if yes then try to fill all the evening session.
 
 ## Usage
+
+## Please use the master branch
 
 The program can be ran :
 
