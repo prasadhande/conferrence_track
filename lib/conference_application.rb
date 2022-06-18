@@ -77,8 +77,6 @@ class CParser
   end
 end
 
-
-
 # This class solves the conference talk management
 class CManage
 
@@ -158,8 +156,6 @@ class CManage
     @tracks
   end
 end
-
-
 
 
 # Print output data to terminal
