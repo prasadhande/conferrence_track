@@ -66,19 +66,13 @@ class CParser
     @talks
   end
 
-  # Uses regEx to slice each line to two parts, substitutes "lightning" with
-  # the time length of 5 minutes, then returns an array with the talk
+  # Uses regEx to slice each line to two parts, to return an array with the talk
   # description and its length.
   def process_line(line)
 
-    talk = line.match(/(\w+.*?)(\d+|lightning$)/)
+    talk = line.match(/(\w+.*?)(\d+)/)
     data = []
-    if talk[2] == "lightning"
-      data = [talk[1].strip, 5]
-    else
-      data = [talk[1].strip, talk[2].to_i]
-    end
-
+    data = [talk[1].strip, talk[2].to_i]
     return data
   end
 end
